@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.bodyIndex{
+    background-image: url("../img/fundo/index.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.img_datilografia{
+    width: 70px;
+}
+.img_parametros{
+    width: 840px;
+    height:500px;
+}
+.iframe_video{
+    width: 540px;
+    height:300px;
+}
+.bodyIndexADM{
+    background-image: url("../img/fundo/index_adm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    margin-left: 80vh;
+}
+.menu ul{
+    margin-left: 20vh;
+}
+.btn1, .btn2{
+    background-color: #0E8E4A;
+    border: 2px solid white ;
+    border-spacing: 10px;
+    border-radius: 4px;
+    align-items: center;
+    width: 20vw;
+    height: 15vh;
+    z-index: 2;
+    position: relative;
+
+}
+.btn1 button, .btn2 button{
+    height: 50%;
+}
+.linha3 {
+    height: 500px;
+    border-left: 20px solid rgb(168, 167, 167); 
+    z-index: 1;
+    position: absolute;
+}
+.linha {
+	border-left: 20px solid rgb(168, 167, 167); 
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+}
+.linha2{
+    border-left: 20px solid rgb(168, 167, 167); 
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 19.5%;
+    margin-top: 1%;
+}
+.bodyMapa{
+    background-image: url("../img/fundo/mapa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.bodyLETRAS, .bodyNUMEROS, .bodyABC, .bodyPRONOME, .bodyVERBO{
+    background: url('../img/fundo/sub_abc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.bodyCASA{
+    background: url("../img/fundo/submapa_casa.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.bodySALA{
+    background: url("../img/fundo/SALA.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.bodyCOZINHA{
+    background: url("../img/fundo/COZINHA.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.bodyBANHEIRO{
+    background: url("../img/fundo/BANHEIRO.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.bodyQUARTO{
+    background: url("../img/fundo/QUARTO.png")no-repeat center top fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.bodyscores{
+    background: url("../img/fundo/scores.png")no-repeat;
+    background-size: cover;
+    }
+.bodyABC-parametros{
+    background: url('../img/fundo/sub_abc.png') no-repeat center top fixed; 
+    background-size: cover;
+
+}
+.card_atv{
+    margin-top: 8%;
+}
+.cont {
+    background-color: rgba(26, 107, 60, 0.5);
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+footer {
+    text-align:center;
+    color: rgb(43, 43, 43);
+}
+.abc
+{
+    position:static;
+    margin-top:20px;
+    margin-left:183px;
+    opacity:1;
+}
+.casa
+{
+    position: static;
+    margin-top:75px;
+    margin-left:250px;
+    opacity:1;
+}
+.alfabeto_numeral{
+    margin-top: 10%;
+    margin-left: 40%;
+
+}
+.sala
+{
+    margin-top:30%;
+    margin-left:-10%;
+    cursor:pointer;
+    opacity:1;
+}
+.cozinha 
+{
+    margin-top:-390px;
+    margin-left:240px;
+    cursor:pointer;
+    opacity:1;
+}
+.banheiro 
+{
+    margin-top:-380px;
+    margin-left:550px;
+    cursor:pointer;
+    opacity:1;
+}
+.quarto 
+{
+    margin-top:-377px;
+    margin-left:870px;
+    cursor:pointer;
+    opacity:1;
+}
+.sala:hover, .cozinha:hover, .banheiro:hover, .quarto:hover, .abc:hover, .casa:hover{
+    opacity:0.5;
+}
+.frase_letras{
+    width: 30px;
+}
+.ranking{
+    box-shadow: 2px 2px 2px 1px rgba(8, 8, 8, 0.2);
+    box-shadow: 10px 5px 5px 5px rgb(10, 10, 10);
+}
+.interrogacao{
+    height:40px;
+    width:40px;
+}
+.iframe_video_sobre{
+    height:400px;
+    width:440px;
+    color:white;
+    margin-left:5%;
+    margin-top:5%;
+}
+.recupera_senha{
+    background-color: white;
+    box-shadow: 5px 5px 5px 4px rgba(8, 8, 8, 0.2);
+    border-radius: 5px;
+    size: 50px;
+    
+}
+.r_senha{
+    margin-bottom:20%;
+    position:absolute;
+}
+@media only screen and (max-device-width: 500px) and (max-device-width: 640px){
+    .r_senha{
+        margin-bottom:100%;
+        position:absolute;
+    }
+    .iframe_video{
+        width: 300px;
+        height:200px;
+    }
+    .iframe_video_sobre{
+        width: 320px;
+        height:200px;
+        margin-left:10%;
+        margin-top:5%;
+
+    }
+    .interrogacao{
+        height:30px;
+        width:30px;
+    }
+    .img_parametros{
+        width: 240px;
+        height:200px;
+    }
+    .frase_letras{
+        width: 14px;
+    }
+    .img_datilografia{
+        width: 24px;
+    }
+    .bodyIndex{
+        background-image: url("../img/fundo/index_mobile.png");
+    }
+    .logo{
+        position: relative;
+        margin-left: 0vh;
+    }
+    .menu ul{
+        margin-left:0vh;
+    }
+    .menu {
+        margin-left: -9vh;
+    }
+    .btn1, .btn2{
+        width: 50vw;
+        height: 15vh;
+    }
+    .linha {
+        border-left: 0px solid rgb(168, 167, 167); 
+        height: 350px;
+        margin-left: 45%;
+    }
+    .linha2{
+        border-left: 0px solid rgb(168, 167, 167); 
+        height: 350px;
+        margin-left: 48%;
+        margin-top: 5%;
+    }
+    .bodyMapa{
+        background-image: url("../img/fundo/mapa_mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+    
+    .bodyLETRAS, .bodyNUMEROS, .bodyABC{
+          background: url('../img/fundo/sub_abc_mobile.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 100vw;
+          display: flex; 
+          align-items: center; 
+          justify-content: center;
+    }
+    .bodyCASA{
+        background: url("../img/fundo/submapa_casa_mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+    .bodyscores{
+        background: url("../img/fundo/score_mobile.png")no-repeat;
+        background-size: cover;
+        padding-bottom:100%;
+    }
+    .sala{
+        position: absolute;
+        margin-top:35%;
+        margin-left:40%;
+    }
+    .cozinha {
+        position: absolute;
+        margin-top:-6%;
+        margin-left:15%;
+    }
+    .banheiro {
+        position: absolute;
+        margin-top:-37%;
+        margin-left:-10%;
+    }
+    .quarto {
+        position: absolute;
+        margin-top:-73%;
+        margin-left:-34%;
+    } 
+    .sala img, .cozinha img, .quarto img, .banheiro img{
+        width: 65%;
+        height: 90%;
+        transform: rotate(270deg);
+    }
+    .alfabeto_numeral{
+        margin-top: 0%;
+        margin-left: 0%;
+    
+    }
+    footer{
+        margin-bottom: -8%;
+        font-size: small;
+    }
+    .casa
+    {
+        position:absolute;
+        margin-top:150px;
+        margin-left:105px;
+    }
+    .abc
+    {
+        position:absolute;
+        margin-top:200px;
+        margin-left:127px;
+    }   
+    .casa img{
+        width: 50%;
+        height: 40%;
+    }
+    .abc img{
+        width: 80%;
+        height: 90%;
+    }
+
+    .card_palav_cad{
+        margin-top: 150px;
+        height:50%;
+    }
+    .card_atv{
+        margin-top: 20%;
+    }
+    .card_atv2{
+        width: 10%;
+    }
+  }
+  /*LAYOUT PARA TABLET*/
+  @media only screen and (min-device-height: 640px) and (min-device-width: 500px) and (max-device-height: 2400px) and (max-device-width: 1080px){
+    .r_senha{
+        margin-bottom:70%;
+        position:absolute;
+    }
+    .linha3, .linha, .linha2 {
+        border-left: 0px solid ;
+        height: 0px;
+        position: absolute;
+        display: none;
+    }
+    .iframe_video{
+        width: 520px;
+        height:400px;
+    }
+    .img_parametros{
+        width: 240px;
+        height:200px;
+    }
+    .frase_letras{
+        width: 14px;
+    }
+    .img_datilografia{
+        width: 100px;
+    }
+    .bodyIndex{
+        background-image: url("../img/fundo/index_mobile.png");
+    }
+    .logo{
+        position: relative;
+        margin-left: 0vh;
+    }
+    .menu ul{
+        margin-left:-5vh;
+    }
+    .menu {
+        margin-left: 9vh;
+    }
+    .btn1, .btn2{
+        padding: 5px;
+        width: 40vw;
+        height: 20vh;
+    }
+    .bodyMapa{
+        background-image: url("../img/fundo/mapa_tablet.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+    
+    .bodyLETRAS, .bodyNUMEROS, .bodyABC{
+          background: url('../img/fundo/sub_abc_mobile.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          align-items: center; 
+          justify-content: center;
+    }
+    .bodyCASA{
+        background: url("../img/fundo/submapa_casa_tablet.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+    .bodyscores{
+        background: url("../img/fundo/score_mobile.png")no-repeat;
+        background-size: cover;
+        padding-bottom:100%;
+    }
+    .sala{
+        position: absolute;
+        margin-top:30%;
+        margin-left:40%;
+    }
+    .cozinha {
+        position: absolute;
+        margin-top:-3%;
+        margin-left:15%;
+    }
+    .banheiro {
+        position: absolute;
+        margin-top:-25%;
+        margin-left:-10%;
+    }
+    .quarto {
+        position: absolute;
+        margin-top:-52%;
+        margin-left:-34%;
+    } 
+    .sala img, .cozinha img, .quarto img, .banheiro img{
+        width: 65%;
+        height: 90%;
+        transform: rotate(270deg);
+    }
+    .alfabeto_numeral{
+        margin-top: 0%;
+        margin-left: 0%;
+    
+    }
+    footer{
+        margin-bottom: -8%;
+        font-size: small;
+    }
+    .casa
+    {
+        position:absolute;
+        margin-top:280px;
+        margin-left:330px;
+    }
+    .abc
+    {
+        position:absolute;
+        margin-top:350px;
+        margin-left:400px;
+    }   
+    .card_palav_cad{
+        margin-top: 150px;
+        height:50%;
+    }
+    .card_atv{
+        margin-top: 20%;
+    }
+    
+}
